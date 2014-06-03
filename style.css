@@ -1,0 +1,47 @@
+/* 
+    Document   : style
+    Created on : 01.Şub.2013, 19:46:55
+    Author     : vaio
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+	display: block;
+}
+body{
+	background-color: #666666;
+	margin:0px;
+	padding:0px;
+}
+body,div,table,span{
+	font-family: "Helvetica Neue","HelveticaNeue",Helvetica,Arial,sans-serif;
+	font-size: 100%;
+}
+
+.menubar{
+	height:60px;
+	background-color: #000000;
+	color:#FFFFFF;
+}
+.menubar .title{
+	line-height:55px;
+	font-weight: bold;
+	float:left;
+}
+.menus .btSend{
+	margin:0px auto auto 150px;
+	width:230px; height: 25px; 
+	background-color: #666666;
+	text-align: center;
+	cursor: pointer;
+}
+.debugtxt{
+	height:20px;
+}
+.canvas{
+	background-color: #FFFFFF;
+	margin:10px;
+}
+
+
